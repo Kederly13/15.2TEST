@@ -12,6 +12,7 @@ import employeesReducer from './employees/reducers';
 const rootReducer = combineReducers({
      moneyReducer,
      counterReducer,
+     employeesReducer,
   });
 
   const store = configureStore({
