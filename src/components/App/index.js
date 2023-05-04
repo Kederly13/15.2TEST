@@ -1,5 +1,4 @@
 import AppContent from "components/AppContent";
-import Header from "components/Header";
 import Counter from "components/Counter";
 
 const App = () =>  {

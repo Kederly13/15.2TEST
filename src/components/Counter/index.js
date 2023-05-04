@@ -22,8 +22,8 @@ const Counter = () => {
         <div>
             <div>
                 <h1>CURRENT SCORE {value}</h1>
-                <button onclick={incrementHandle}>Increment</button>
-                <button onclick={decrementHandle}>Decrement</button>
+                <button onClick={incrementHandle}>Increment</button>
+                <button onClick={decrementHandle}>Decrement</button>
             </div>
         </div>
     )
